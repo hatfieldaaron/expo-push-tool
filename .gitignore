@@ -1,0 +1,45 @@
+# Xcode
+.DS_Store
+*.xcworkspace
+xcuserdata/
+DerivedData/
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# SwiftPM
+.build/
+Packages/
+Package.resolved
+.swiftpm/xcode/package.xcworkspace/
+
+# CocoaPods (if ever added)
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Swift Package Manager
+.build/
+
+# Fastlane (if ever added)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Archives and logs
+*.xcarchive
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Misc
+*.swp
+*.lock
+*.tmp
+*.log
